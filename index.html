@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>yxsc</title>
+    <title>严选商城</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      html{
+        font-size: 100px;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+    function rem(){
+      document.documentElement.style.fontSize=document.documentElement.clientWidth/4.5+"px";
+    }
+    window.onresize=rem;
+  </script>
 </html>
